@@ -3,6 +3,7 @@ import Image from "next/image";
 import HeroSection from "@/components/HeroSection";
 import FeaturedCard from "@/components/FeaturedCard";
 import { WhyChooseUs } from "@/components/WhyChooseUs";
+import MusicSchoolTestimonials from "@/components/TestimonialsCard";
 
 export default function Home() {
  return (
@@ -10,6 +11,7 @@ export default function Home() {
        <HeroSection/>
        <FeaturedCard/>
        <WhyChooseUs/>
+       <MusicSchoolTestimonials/>
    </main>
   )
 }
